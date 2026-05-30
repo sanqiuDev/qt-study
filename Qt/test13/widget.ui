@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>451</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请选择汉堡：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>140</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请选择小食：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>140</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请选择饮料：</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>121</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>巨无霸</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>121</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>麦辣鸡腿堡</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>培根蔬萃双层牛堡</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_4">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>170</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>中薯条</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_5">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>200</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>卖辣鸡翅</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_6">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>230</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>麦乐鸡块</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_7">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>190</y>
+     <width>91</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>可乐</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_8">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>220</y>
+     <width>91</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>雪碧</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>320</y>
+     <width>541</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>今天的任务是：</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>350</y>
+     <width>151</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>工作</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>370</y>
+     <width>181</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>睡觉</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_3">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>400</y>
+     <width>131</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>玩游戏</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_4">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>420</y>
+     <width>201</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>看电影</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>450</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确认</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
