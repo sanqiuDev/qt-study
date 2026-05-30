@@ -15,8 +15,9 @@ Widget::~Widget()
 {
     delete ui;
 }
-//
 
+
+//
 void Widget::on_pushButton_day_clicked()
 {
     //1. 设置窗口的样式
