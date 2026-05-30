@@ -8,6 +8,7 @@ Widget::Widget(QWidget *parent)
     ui->setupUi(this);
 
 
+
     //图标是一个好东西，今天我们来尝试一下：
     /*
         1. 为光标创建图标
