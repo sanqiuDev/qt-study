@@ -65,19 +65,6 @@
     <string>吃大餐</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="work">
-   <property name="geometry">
-    <rect>
-     <x>300</x>
-     <y>310</y>
-     <width>111</width>
-     <height>61</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>不上班</string>
-   </property>
-  </widget>
  </widget>
  <resources/>
  <connections/>

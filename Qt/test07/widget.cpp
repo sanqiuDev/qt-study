@@ -55,3 +55,10 @@ void Widget::on_eat_pressed()
     //3.将按钮移动的指定的位置
     ui->eat->move(new_x,new_y);
 }
+
+
+
+
+
+
+
