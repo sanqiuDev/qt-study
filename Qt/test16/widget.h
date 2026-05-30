@@ -2,7 +2,6 @@
 #define WIDGET_H
 
 #include <QWidget>
-//#include <QResizeEvent>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
@@ -16,7 +15,6 @@ public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
 
-    void resizeEvent(QResizeEvent *event);
 private:
     Ui::Widget *ui;
 };
