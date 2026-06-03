@@ -39,6 +39,7 @@ Widget::~Widget()
 }
 
 
+//
 void Widget::on_pushButton_clicked()
 {
    QString  gender = ui->radioButton->isChecked()?"男":"女";
