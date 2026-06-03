@@ -40,15 +40,13 @@ Widget::~Widget()
 }
 
 
-
-
 void Widget::on_lineEdit_textEdited(const QString &arg1)
 {
     /*
         ui->lineEdit->validator()：拿到之前绑定在输入框的校验器对象（QValidator 子类，不是控件）
         validate(待校验字符串,光标位置)：校验文本，返回 3 种枚举结果：
         | 返回枚举 | 含义 |
-        |------------------------|-----------------------------------------|
+        |------------------------|------------------------------------------|
         |QValidator::Acceptable  |文本完全合法，满足规则                       |
         |QValidator::Intermediate| 内容不完整（比如手机号只输了 5 位，格式半完成） |
         |QValidator::Invalid     | 内容非法（含字母 / 符号等违规字符）           |
@@ -70,7 +68,7 @@ void Widget::on_lineEdit_textEdited(const QString &arg1)
     /*
         validate 和 setValidator 输入拦截的区别
             setValidator(xxx)：打字瞬间拦截非法字符，根本输不进去（硬件级拦截输入）
-            本代码validate()：已经输入完成后，校验整段文本，用来控制按钮可用性（业务逻辑校验）
+            validate()：已经输入完成后，校验整段文本，用来控制按钮可用性（业务逻辑校验）
     */
 }
 
