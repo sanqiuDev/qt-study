@@ -15,6 +15,11 @@ public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
 
+private slots:
+    void on_horizontalSlider_valueChanged(int value);
+
+    void on_verticalSlider_valueChanged(int value);
+
 private:
     Ui::Widget *ui;
 };
