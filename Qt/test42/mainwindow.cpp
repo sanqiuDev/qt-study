@@ -1,6 +1,8 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
+#include <QDebug>
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -35,7 +37,6 @@ MainWindow::MainWindow(QWidget *parent)
     menubar->addMenu(menu2);
     menubar->addMenu(menu3);
 
-
     //3.添加菜单项
     //第一步：创建菜单项
     QAction *action1 = new QAction("打开");
@@ -46,10 +47,22 @@ MainWindow::MainWindow(QWidget *parent)
     menu1->addAction(action1);
     menu1->addAction(action2);
     menu1->addAction(action3);
+
+
+    //补充：信号和槽的交互内容
+    connect(action3,&QAction::triggered,this,&MainWindow::close);
+    connect(action2,&QAction::triggered,this,&MainWindow::handle);
+
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::handle()
+{
+    qDebug()<<"内容已经保存"<<Qt::endl;
+}
+
 

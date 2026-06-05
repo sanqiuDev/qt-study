@@ -15,6 +15,7 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+    void handle();
 private:
     Ui::MainWindow *ui;
 };
