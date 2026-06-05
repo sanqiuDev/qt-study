@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>opt.png</file>
+        <file>file.png</file>
+        <file>word.png</file>
+        <file>ppt.png</file>
+    </qresource>
+</RCC>
