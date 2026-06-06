@@ -3,6 +3,9 @@
 
 #include <QDockWidget>
 #include <QListWidget>
+#include <QVBoxLayout>
+#include <QLabel>
+#include <QPushButton>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -22,6 +25,25 @@ MainWindow::MainWindow(QWidget *parent)
 
     //3.设置浮动窗口默认的停靠位置
     this->addDockWidget(Qt::BottomDockWidgetArea,dockWidget);
+
+    //4.为浮动窗口设置标题
+    dockWidget->setWindowTitle("这是窗口标题");
+
+    //为浮动窗口中添加一些东西
+
+    //窗口
+    QWidget *widget = new QWidget();
+    dockWidget->setWidget(widget);
+
+    //布局管理器
+    QVBoxLayout *layout = new QVBoxLayout();
+    widget->setLayout(layout);
+
+    //标签+按钮
+    QLabel *label = new QLabel("标签",this);
+    QPushButton *pushButton = new QPushButton("按钮",this);
+    layout->addWidget(label);
+    layout->addWidget(pushButton);
 
 }
 
