@@ -53,6 +53,8 @@ void MainWindow::on_pushButton_fast_clicked()
             + QString::number(color.green())+","
             + QString::number(color.blue())
             +");";
+    //最终生成的完整字符串类似："background-color: rgb(0, 255, 0);"
+
     this->setStyleSheet(style);
 
 
