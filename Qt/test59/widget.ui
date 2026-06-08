@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_work">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>120</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>写作业</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>60</y>
+     <width>331</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="text">
+    <string>选择你接下来要做的事情：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_sleep">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>190</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>睡懒觉</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_eat">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>260</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>吃大餐</string>
+   </property>
+  </widget>
+  <widget class="PushButton" name="pushButton_play">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>330</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>玩游戏</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PushButton</class>
+   <extends>QPushButton</extends>
+   <header>pushbutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
