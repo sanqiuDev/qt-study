@@ -16,13 +16,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    label.cpp \
     main.cpp \
-    widget.cpp
+    widget.cpp \
+    work.cpp
 
 HEADERS += \
-    label.h \
-    widget.h
+    widget.h \
+    work.h
 
 FORMS += \
     widget.ui
