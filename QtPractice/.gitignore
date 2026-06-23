@@ -1,0 +1,31 @@
+# 构建目录
+build/
+Build/
+*.o
+*.obj
+*.exe
+*.app
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+
+# Qt 自动生成文件
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+*.pro.user
+*.pro.user.*
+Makefile
+Makefile.*
+
+# IDE 和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
