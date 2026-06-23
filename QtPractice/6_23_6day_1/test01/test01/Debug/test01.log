@@ -1,0 +1,4 @@
+﻿   Qt/MSBuild: 3.5.0.0
+   Qt: 5.14.2
+  main.cpp
+  test01.vcxproj -> C:\Qtdemo\qt-study\QtPractice\6_23_6day_1\test01\Debug\test01.exe
