@@ -1,27 +1,70 @@
-# 构建目录
+# ============ 构建输出 ============
+# qmake / CMake / Ninja
 build/
 Build/
-*.o
-*.obj
-*.exe
-*.app
-*.dll
-*.lib
-*.a
-*.so
-*.dylib
+cmake-build-*/
 
-# Qt 自动生成文件
+# MSVC 配置目录
+Debug/
+Release/
+x64/
+x86/
+out/
+
+# ============ MSVC 中间文件 ============
+*.pdb
+*.ilk
+*.idb
+*.pch
+*.exp
+*.tlb
+*.aps
+*.res
+*.bak
+*.log
+*.tmp
+*.tlog/
+*.recipe
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.opendb
+
+# VS IDE 缓存（含 ipch 预编译头，可达几十 MB）
+.vs/
+ipch/
+
+# MSVC 用户特定配置
+*.vcxproj.user
+*.user
+
+# ============ Qt 自动生成 ============
 moc_*.cpp
 moc_*.h
 ui_*.h
 qrc_*.cpp
-*.pro.user
-*.pro.user.*
+*.qmake.stash
+moc_predefs.h.cbt
+.qmake.stash
+
+# 通用 qmake 残留
 Makefile
 Makefile.*
+*.pro.user
+*.pro.user.*
 
-# IDE 和编辑器
+# ============ 编译目标文件 ============
+*.o
+*.obj
+*.exe
+*.app
+*.so
+*.dylib
+
+# 注意：未忽略 *.dll 和 *.lib，保留给项目作为发布产物的可能
+
+# ============ IDE / 编辑器 ============
 .vscode/
 .idea/
 *.swp
@@ -29,3 +72,7 @@ Makefile.*
 *~
 .DS_Store
 Thumbs.db
+
+# ============ Qt 临时目录（VS 下 Qt 插件生成） ============
+**/Debug/qt/
+**/Release/qt/
