@@ -34,6 +34,7 @@ out/
 # VS IDE 缓存（含 ipch 预编译头，可达几十 MB）
 .vs/
 ipch/
+*.ipch
 
 # MSVC 用户特定配置
 *.vcxproj.user
