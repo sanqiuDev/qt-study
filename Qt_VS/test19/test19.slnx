@@ -1,0 +1,6 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="test19/test19.vcxproj" />
+</Solution>
